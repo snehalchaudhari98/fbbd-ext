@@ -1,5 +1,12 @@
 properties:
-  template:field1:
-    type: uint8
-  template:field2:
+  fbbd:perimeter:
+    type: float
+    exclusiveMinimum: 0
+  fbbd:datetime:
+    type: date-time
+  fbbd:source:
     type: string
+    enum: ["HM", "ML"]
+  fbbd:crop_type:
+    type: string
+    minLength: 1

@@ -8,22 +8,23 @@
   "id": "fiboa",
   "description": "An example fiboa dataset",
   "license": "CC-0",
+  "patch": 1,
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180,
-          -90,
-          180,
-          90
+          21.022018087004064, 
+          -34.090888977050781, 
+          21.02312596519667,
+           -34.091143214854235
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-01-01T00:00:00Z",
-          "2020-01-01T00:00:00Z"
+          "2021-01-01T00:00:00Z",
+          "2021-12-30T00:00:00Z"
         ]
       ]
     }
@@ -38,6 +39,11 @@
       "rel": "item",
       "href": "example.parquet",
       "type": "application/vnd.apache.parquet"
-    }
+    }, 
+     {
+       "rel": "item",
+       "href": "", 
+       "type": "image/tiff; application=geotiff" 
+     }
   ]
 }

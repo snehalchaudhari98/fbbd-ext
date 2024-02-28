@@ -1,10 +1,10 @@
 # Template Extension Specification
 
-- **Title:** Template
-- **Identifier:** <https://fiboa.github.io/extension-template/v0.1.0/schema.yaml>
-- **Property Name Prefix:** template
-- **Extension Maturity Classification:** Proposal/Candidate/Stable
-- **Owner**: @your-gh-handles @person2
+- **Title:** Field Boundary Benchmark Dataset
+- **Identifier:** <https://fiboa.github.io/extension-template/v0.2.0/schema.yaml>
+- **Property Name Prefix:** fbbd
+- **Extension Maturity Classification:** Proposal
+- **Owner**: @dataset team 
 
 This document explains the Template Extension to the
 [Field Boundaries for Agriculture (fiboa) Specification](https://github.com/fiboa/specification).
@@ -26,8 +26,10 @@ The fields in the table below can be used in these parts of fiboa documents:
 
 | Property Name   | Type   | Description |
 | --------------- | ------ | ----------- |
-| template:field1 | string | **REQUIRED**. Describe the required field... |
-| template:field2 | int32  | Describe the field... |
+| fbbd:source     | string |["HM", "ML"] |
+| fbbd:perimeter  | float  | perimeter of the field |
+| fbbd:crop_type  | string | type of crop               |
+
 
 ## Contributing
 
